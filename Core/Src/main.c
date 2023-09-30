@@ -93,6 +93,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  // blinking LED over 2Hz
+	  HAL_GPIO_TogglePin(LED_C13_GPIO_Port, LED_C13_Pin);
+	  HAL_Delay(250);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
