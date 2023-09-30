@@ -99,6 +99,7 @@ int main(void)
 	  else{
 		  HAL_GPIO_WritePin(LED_C13_GPIO_Port, LED_C13_Pin, GPIO_PIN_SET);
 	  }
+	  HAL_Delay(10);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
